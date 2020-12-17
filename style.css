@@ -32,7 +32,7 @@
   		font-size:60px; 
   		font-weight: 600; 
   		text-align:center;
-      background-color: ink;
+     		background-color: ink;
   		}
 
 
@@ -52,7 +52,7 @@
 
 
 
-  .all {width:1800px; 
+  .all {width:1660px; 
         height:auto; 
         position: absolute;
         top:px; 
