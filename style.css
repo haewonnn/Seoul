@@ -35,39 +35,18 @@
       background-color: ink;
   		}
 
-    .number{
-      width:1700px; 
-      height:auto; 
-      position: relative;
-      top:445px; 
-      text-align: center;
-      padding: 0px; 
-      margin-left:; 
-      font-size:60px;}
 
     .numberbox{
       width: 1%;
       height: auto;
-      position: fixed;
-      top:435px;
+      position: absolute;
+      top:320px;
       text-align: center;
       color: black;
       padding: 30px;
       font-size: 60px;
       font-family:'S-CoreDream-9Black';
       z-index: 555;}
-
-    .number-01{
-      position:relative; 
-      width:1%; 
-      height:auto; 
-      float:left; 
-      margin-left:65px; 
-      margin-right:65px;
-      color:black; 
-      font-size:60px; 
-      text-align: center;
-      }
 
 	.dream{font-family:'S-CoreDream-9Black';}
 
