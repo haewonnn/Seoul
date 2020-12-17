@@ -1,0 +1,359 @@
+
+
+	*{box-sizing: border-box;}
+	html{width:100%; height:100%; font-family: 'Noto Sans KR', sans-serif , 'S-CoreDream-9Black' ; cursor: url(pic/cursor-2.cur), auto;}
+
+	body{width:100%; height: 100%; padding:0px 5px 0px 5px; margin:0;
+		background-color:white; line-height:1.8; font-weight: 500;
+		word-break: keep-all; font-size:12px ;
+		background-image: url("pic/grid.png");
+		background-size:1500px;
+		cursor: url(pic/cursor-2.cur), auto;
+		overflow: hidden}
+
+
+	@font-face {
+	 font-family: 'S-CoreDream-9Black';
+	 src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+	 font-weight: normal;
+	 font-style: normal;
+			}
+
+		canvas { cursor: url(pic/cursor-2.cur), auto; }
+
+
+	.title{
+		position:relative; 
+		width:100%;
+		top:20px;
+		padding: 0px; 
+		color:black; 
+		text-align: left; 
+		font-size:60px; 
+		font-weight: 600; 
+		text-align:center;
+		}
+
+	.number{
+		position:absolute; 
+		z-index:555; 
+		top:445px;
+		}
+	.number-01{
+		position:relative; 
+		width:1%; 
+		height:auto; 
+		float:left; 
+		margin-left:65px; 
+		margin-right:65px;
+		color:black; 
+		font-size:60px; 
+		text-align: center;
+		}
+
+	.dream{font-family:'S-CoreDream-9Black';}
+
+	.line{width: 144px; height: 800px; float: left; margin-left: 5px; margin-top: 30px; background-color: ink;}
+
+	  .Dongjak{background-color:#bed99e}
+	  .Eunpyeong{background-color:#d2d1cb}
+	  .Gangnam{background-color:#e89487;}
+	  .Gangbuk{background-color:#f0e5de}
+	  .Gangdong{background-color:#9e9b9e}
+	  .Gangseo{background-color:#5e8f6b}
+	  .Geumcheon{background-color:#cdbcf8}
+	  .Gwangjin{background-color:#aac1b8}
+	  .Gwanak{background-color:#f0faba}
+	  .Jungnang{background-color:#fff6b6}
+	  .Junggu{background-color:#f9e198}
+	  .Mapo{background-color:#f5c266;} 
+	  .Nowon{background-color:#6b708f}
+	  .Songpa{background-color:#bde3db;}
+	  .Seocho{background-color:#f5c7bf}
+	  .Seodaemun{background-color:#73b2bd}
+	  .Seongdong{background-color:#ffb666}
+	  .Seongbuk{background-color:#c6a391}
+	  .Yongsan{background-color:#f0b276}
+	  .Yeongdeungpo{background-color:#7cb5a1}
+	  .Yangcheon{background-color:#7f91c9}
+
+	  .clearfix{clear:both;}
+
+
+	.hovertext {
+	height:60px;
+	width:170px;
+	color:black; 
+	border-radius:100%;
+	display:flex; align-items: center;
+	justify-content: center;
+	margin-top:5px;
+	}
+	.hovertext:hover .tooltiptext{display:block}
+
+/*----tooltip----
+        .tooltip:hover 
+        .tooltiptext {visibility: visible;}
+        .tooltiptext {
+          display: none;
+          width: 200px;
+          height:100px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+
+          position: absolute;
+          z-index: 1;
+          top: 250px;
+          left: 5px;
+          margin-left: 10px;
+            }*/
+
+/*----tooltip1----*/
+       .tooltip1:hover 
+       .tooltiptext1 {visibility: visible;z-index: 999;}
+       .tooltip1 {
+          position: relative;
+          border-bottom: 0px dotted black;}
+        .tooltiptext1 {
+          visibility: hidden;
+          width: 200px;
+          height:80px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          top: -10px;
+          left: 240px;
+          margin-left: -60px;
+        }
+
+/*----tooltip2----*/
+       .tooltip2:hover 
+       .tooltiptext2 {visibility: visible;z-index: 999;}
+       .tooltip2 {
+          position: relative;
+          border-bottom: 0px dotted black;}
+        .tooltiptext2 {
+          visibility: hidden;
+          width: 200px;
+          height:100px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          top: -20px;
+          left: 240px;
+          margin-left: -60px;
+        }
+
+/*----tooltip3----*/
+       .tooltip3:hover 
+       .tooltiptext3 {visibility: visible; z-index: 999;}
+       .tooltip3 {
+          position: relative;
+          border-bottom: 0px dotted black;}
+        .tooltiptext3 {
+          visibility: hidden;
+          width: 200px;
+          height:120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          top: -20px;
+          left: 240px;
+          margin-left: -60px;
+        }
+
+/*----tooltip4----*/
+       .tooltip4:hover 
+       .tooltiptext4 {visibility: visible;z-index: 999;}
+       .tooltip4 {
+          position: relative;
+          border-bottom: 0px dotted black;}
+        .tooltiptext4 {
+          visibility: hidden;
+          width: 200px;
+          height:140px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          top: -20px;
+          left: 240px;
+          margin-left: -60px;
+        }
+
+/*----tooltip5----*/
+       .tooltip5:hover 
+       .tooltiptext5 {visibility: visible;}
+       .tooltip5 {
+          position: relative;
+          border-bottom: 0px dotted black;}
+        .tooltiptext5 {
+          visibility: hidden;
+          width: 200px;
+          height:160px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          top: -20px;
+          left: 240px;
+          margin-left: -60px;
+        }
+        .tooltip5 {z-index: 995;}
+
+
+/*----tooltip6----*/
+       .tooltip6:hover 
+       .tooltiptext6 {visibility: visible; z-index: 999;}
+       .tooltip6 {
+          position: relative;
+          border-bottom: 0px dotted black;}
+        .tooltiptext6 {
+          visibility: hidden;
+          width: 200px;
+          height:80px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          top: -10px;
+          left: -150px;
+          margin-left: -60px;
+        }
+        
+/*----tooltip7----*/
+       .tooltip7:hover 
+       .tooltiptext7 {visibility: visible; z-index: 999;}
+       .tooltip7 {
+          position: relative;
+          border-bottom: 0px dotted black;}
+        .tooltiptext7 {
+          visibility: hidden;
+          width: 200px;
+          height:100px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          top: -10px;
+          left: -150px;
+          margin-left: -60px;
+        }
+        
+/*----tooltip8----*/
+       .tooltip8:hover 
+       .tooltiptext8 {visibility: visible; z-index: 999;}
+       .tooltip8 {
+          position: relative;
+          border-bottom: 0px dotted black;}
+        .tooltiptext8 {
+          visibility: hidden;
+          width: 200px;
+          height: 120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          top: -10px;
+          left: -150px;
+          margin-left: -60px;
+        }
+        
+
+/*----tooltip9----*/
+       .tooltip9:hover 
+       .tooltiptext9 {visibility: visible; z-index: 999;}
+       .tooltip9 {
+          position: relative;
+          border-bottom: 0px dotted black;}
+        .tooltiptext9 {
+          visibility: hidden;
+          width: 200px;
+          height:140px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          top: -10px;
+          left: -150px;
+          margin-left: -60px;
+        }
+        
+/*----tooltip10----*/
+       .tooltip10:hover 
+       .tooltiptext19 {visibility: visible; z-index: 999;}
+       .tooltip19 {
+          position: relative;
+          border-bottom: 0px dotted black;}
+        .tooltiptext10 {
+          visibility: hidden;
+          width: 200px;
+          height: 160px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 0px;
+          padding: 5px 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          top: -10px;
+          left: -150px;
+          margin-left: -60px;
+        }
+
+
+
+		
+
+	
+
+
+	a:link{text-decoration: none; color: black;}
+	a:visited{text-decoration: none; color: black;}
+	a:hover{text-decoration: none; color: #3a3a3a; font-weight:600;}
+
+
+
